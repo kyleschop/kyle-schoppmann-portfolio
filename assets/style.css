@@ -1,4 +1,50 @@
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
 #hero {
-    background-image: url(./images/Sausalito\ fall.jpg);
-    padding: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-right: 300px;
+    padding-left: 100px;
+}
+
+img {
+    width: 350px;
+    height: 262px;
+    border-radius: 15%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 25px;
 }
